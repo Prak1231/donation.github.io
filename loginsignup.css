@@ -1,0 +1,78 @@
+body{
+    background-color:red;
+
+}
+.navbar{
+    background-color:whitesmoke;
+    box-shadow: 0px 1px 3px 5px rgba(0,0,0,0.28);
+    
+    border-radius: 3px;
+    
+}
+
+.nav-item {
+    margin-left:30px;
+}
+.nav-item a{
+    color:black !important;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.nav-item a:hover{
+    
+    box-shadow: 0px 1px 3px 5px rgba(0,0,0,0.28);
+    border-radius: 3px;
+    /* color:blue !important; */
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/* ====================login form========================= */
+
+
+.login_form:hover{
+    margin-top: 25%;
+ background: rgb(114, 16, 206)!important;
+ padding: 30px; 
+    box-shadow: 0px 1px 36px 5px rgba(247, 246, 248, 0.28);
+    border-radius: 5px;
+}
+.form_btn{ 
+    background: #fb641b;
+   box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+   border: none;
+   color: #fff; 
+   width: 100% 
+ }
+
+ .label_txt{ 
+font-size: 12px; 
+  }  
+  .form-control{border-radius: 25px }
+
+
+
+
+
+  /* ==========================SignupForm============================== */
+
+.heading{
+    margin-top:20px;
+    margin-bottom:30px;
+    color:blue;
+}
+  .signup_form:hover{ 
+    background:#fff;
+  padding-left: 25px; 
+   padding-right: 25px; 
+      padding-bottom:20px;
+      padding-top: 20px; 
+     box-shadow: 0px 2px 36px 10px rgba(0,0,0,0.28);
+     border-radius: 5px;
+    }
+
+.row5{
+    margin-left: 30px;
+}

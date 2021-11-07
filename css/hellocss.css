@@ -1,0 +1,91 @@
+
+.navbar{
+    background-color:whitesmoke;
+    box-shadow: 0px 1px 3px 5px rgba(0,0,0,0.28);
+    
+    border-radius: 3px;
+    
+}
+
+.nav-item {
+    margin-left:30px;
+}
+.nav-item a{
+    color:black !important;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.nav-item a:hover{
+    
+    box-shadow: 0px 1px 3px 5px rgba(0,0,0,0.28);
+    border-radius: 3px;
+  
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ 
+
+
+.btn1:hover{
+    box-shadow: 0px 1px 3px 5px rgba(0,0,0,0.28);
+    border-radius: 3px;  
+}
+
+
+.headerc h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:seagreen;
+}
+
+
+
+/* =====================================About Section============================================ */
+
+.row1{
+        margin-left:150px;
+    
+     
+        /* box-shadow: 0px 1px 3px 5px rgba(0,0,0,0.28); */
+        border-radius: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+   .row2{
+     margin-left: 160px;
+     list-style: circle;
+     
+     color:black;
+   
+   }
+
+
+
+
+   .row3{
+    margin-left: 90px;
+  color:black;
+    }
+   .row4{
+     margin-left: 230px;
+    
+     
+        box-shadow: 0px 1px 36px 5px rgba(0,0,0,0.28);
+        border-radius: 5px;
+        padding-top: 10px;
+       
+    
+   }
+.rowsetting{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+        
+
+
+
+
+
+
+
+  

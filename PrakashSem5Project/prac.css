@@ -1,0 +1,102 @@
+.hello{
+    background-color:whitesmoke;
+}
+  
+  .card-block .btn-outline-primary {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    
+  }
+  
+  .card {
+    margin: 20px 0;
+  }
+  
+  /* Flip Cards CSS */
+  .card-container {
+    perspective: 700px;
+  }
+  .card-flip {
+    position: relative;
+    width: 100px;
+    transform-style: preserve-3d;
+    height: auto;
+    transition: all 0.5s ease-out;
+    background: white;
+    border: none;
+  }
+  
+  .card-flip div {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    height: 100px;
+    width: 100px;
+    border: none;
+  }
+  
+  .card-flip .front {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .card-flip .back {
+    position: relative;
+    z-index: 0;
+    transform: rotateY(-180deg);
+  }
+  
+  .card-container:hover .card-flip {
+    transform: rotateY(180deg);
+  }
+  .contact .row{
+    display: flex;
+    background:var(--black);
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+.contact .row .map{
+    flex:1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact .row form{
+    flex:1 1 45rem;
+    padding:5rem 2rem;
+    text-align: center;
+}
+
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color:#fff;
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background:var(--bg);
+    border:var(--border);
+}
+
+.contact .row form .inputBox span{
+    color:#fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.contact .row form .inputBox input{
+    width: 100%;
+    padding:2rem;
+    font-size: 1.7rem;
+    color:#fff;
+    text-transform: none;
+    background:none;
+}
